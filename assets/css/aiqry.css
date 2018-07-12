@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+html{
+    background-color: #fff;
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+body{
+    color: #464646;
+}
+
+.header_logo{
+    border-bottom: 2px solid #999;
+    box-shadow:0px 3px 3px -4px #07090ac4
+}
+.header_logo img{
+    max-width: 150px;
+    width: 20%;
+    min-width: 100px;
+    margin: 25px 10px 10px 25px;
+}
+.h1 h1{
+    text-align: center;
+        font-weight: 800;
+}
+.h1{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 35px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+.h1 img {
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+}
+.mainvisual{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/back_02.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.main_video video{
+    height: 600px;
+}
+.main_video{
+    margin: 0 auto;
+    width: 307px;
+    height: 600px;
+}
+.text_area{
+    padding-bottom: 100px;
+    font-weight: 600;
+}
+.text{
+    margin: 0 auto;
+    width: 70%;
+    min-width: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.image_area p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.image{
+    padding: 5%;
+}
+.dl_bottom{
+    width: 40%;
+    min-width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.dl_bottom .column{
+    text-align: center;
+}
+.comunity{
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
+    border-bottom: 2px solid #888;
+    text-align: center;
+}
+.comunity p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.comunity img{
+    text-align: center;
+    width: 80px;
+}
+.s1 {
+	color: #444;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.s1:before, .s1:after {
+	content: "";
+	flex-grow: 1;
+	height: 1px;
+	background: #444;
+	display: block;
+}
+.s1:before {
+	margin-right: .4em;
+}
+.s1:after {
+	margin-left: .4em;
+}
+.explain_01 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.explain_01 video {
+    height: 500px;
+}
+.explain_01 p {
+    margin: 10px 0px 40px 15px;
+}
+.box01 .left {
+    text-align: right;
+}
+.box01 .right {
+    text-align: left;
+}
+.explain_02 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.explain_02 video {
+    height: 500px;
+}
+.explain_02 p {
+    margin: 10px 0px 40px 15px;
+}
+.box02 .left {
+    text-align: left;
+}
+.box02 .right {
+    text-align: left;
+}
+.explain_03 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.explain_03 video {
+    height: 500px;
+}
+.explain_03 p {
+    margin: 10px 0px 40px 15px;
+}
+.box03 .left {
+    text-align: right;
+}
+.box03 .right {
+    text-align: left;
+}
+footer {
+    background-color: #eee;
+}
+.footer_inner {
+    width: 60%;
+    margin: 0 auto;
+}
+.footer_dl{
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_comunity{
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_dl p,
+.footer_comunity p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_comunity img{
+    text-align: center;
+    width: 80px;
+}
+.page-back {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 83px;
+    width: 85px;
+    border-radius: 50%;
+}
+.small {
+    font-size: 13px;
+    color: #777;
+}
+@media (min-width: 768px) {
+    .pc_hidden{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .sp_hidden {
+        display: none;
+    }
+    .mainvisual {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: none;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    .main_video video {
+        height: 500px;
+    }
+    .main_video {
+        width: 256px;
+        height: 500px;
+    }
+    .h1{
+        font-size: 25px;
+    }
+    .image{
+        padding-bottom: 30px;
+    }
+    .image img {
+        max-width: 170px;
+        margin: 0 auto;
+    }
+    .h1 {
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .text_area{
+        padding-bottom: 50px;
+        font-weight: 600;
+    }
+    .dl_bottom{
+        width: 80%;
+    }
+    .explain_01,
+    .explain_02,
+    .explain_03{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .box01,
+    .box02,
+    .box03 {
+        text-align: center;
+    }
+    .box01 img,
+    .box02 img,
+    .box03 img {
+        width: 170px;
+    }
+    .box01 h1,
+    .box02 h1,
+    .box03 h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .box01 .left,
+    .box02 .right,
+    .box03 .left {
+        text-align: center;
+    }
+    .footer_inner {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer_dl img {
+        max-width: 230px;
+    }
+    .footer_comunity{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
