@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Aiqry</title>
+    <title>bootny</title>
 
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="assets/css/aiqry.css">
@@ -20,22 +20,34 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header_logo">
-            <img src="assets/img/logo.png" alt="メニュー" width="200" height="" border="0"/>
+    <header class="nav">
+        <div class="header_logo nav-left">
+            <img class='sp_hidden' src="assets/img/logo_tagline.png" alt="メニュー" width="200" height="" border="0"/>
+            <img class='pc_hidden' src="assets/img/logo_tagline_sp.png" alt="メニュー" width="200" height="" border="0"/>
         </div>
-        <div class="h1">
-            <img src="assets/img/main_copy.png" />
-        </div>
+        <ul class="menu nav-right">
+            <li>bootnyとは</li>
+            <li>bootnyとは</li>
+            <li>使い方</li>
+            <li>FAQ</li>
+            <a class="small button is-danger is-rounded">今すぐ事前登録</a>
+        </ul>
     </header>
     <div class="mainvisual">
-        <div class="main_video">
-            <video autoplay loop muted webkit-playsinline playsinline>
-                <source src="assets/video/main.mp4" />
-            </video>
+        <img src="assets/img/logo01.png" alt="main_logo" />
+        <p>仮想通貨のAIロボットで<br>あなたの資産を加速する</p>
+        <div class="">
+            <p>あなたはロボットを選ぶだけ！利用料0円</p>
+            <a class="button is-danger is-rounded">今すぐ事前登録</a>
         </div>
     </div>
-        <main style="width:90%; margin: 0 auto;">
+    <div>
+        <main>
+            <img src="assets/img/section1.png" />
+            <img src="assets/img/section2.png" />
+            <img src="assets/img/section3.png" />
+            <img src="assets/img/section4.png" />
+            <div style="width:90%; margin: 0 auto;">
             <div class="section section-buttons">
                 <div class="container">
                     <div class="text_area">
@@ -168,6 +180,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </main><!-- main -->
     <footer>
         <div class="columns footer_inner">
@@ -192,10 +205,5 @@
             </div>
         </div>
     </footer>
-    <div class="page-back">
-        <a href="#">
-            <img src="assets/img/discord.png" />
-        </a>
-    </div>
  </body>
  </html>
