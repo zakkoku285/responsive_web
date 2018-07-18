@@ -13,11 +13,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="assets/css/aiqry.css">
+    <link rel="stylesheet" href="assets/css/bootny.css">
 
     <!--     Fonts and icons     -->
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,300,700" rel="stylesheet" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/modal.js"></script>
+
 </head>
 <body>
     <header class="nav">
@@ -30,7 +34,7 @@
             <li>bootnyとは</li>
             <li>使い方</li>
             <li>FAQ</li>
-            <a class="small button is-danger is-rounded">今すぐ事前登録</a>
+            <a data-target="modal-01" class="modal-syncer letter_s small button is-danger is-rounded">今すぐ事前登録</a>
         </ul>
     </header>
     <div class="mainvisual">
@@ -38,172 +42,38 @@
         <p>仮想通貨のAIロボットで<br>あなたの資産を加速する</p>
         <div class="">
             <p>あなたはロボットを選ぶだけ！利用料0円</p>
-            <a class="button is-danger is-rounded">今すぐ事前登録</a>
+            <a data-target="modal-01" class="modal-syncer letter_s button is-danger is-rounded">今すぐ事前登録</a>
         </div>
     </div>
-    <div>
-        <main>
-            <img src="assets/img/section1.png" />
-            <img src="assets/img/section2.png" />
-            <img src="assets/img/section3.png" />
-            <img src="assets/img/section4.png" />
-            <div style="width:90%; margin: 0 auto;">
-            <div class="section section-buttons">
-                <div class="container">
-                    <div class="text_area">
-                    <div class="h1">
-                        <h1>Aiで仮想通貨をシンプルに</h1>
-                    </div>
-                    <p class="text">Aiqry - アイクリー -は仮想通貨投資に関連する情報をまとめてくれて、<br>疑問を解決してくれる。<span style="color: #77AFF8;">AIのチャットボットです。</span></p>
-                    <p class="text">ユーザーの好みに合わせたニュースの配信、<br>通貨のチャート情報、SNSのトレンド解析など、<br>自分が知りたい情報を<span style="color:#43C4E9;">Aiqryに質問するだけで。答えてくれます。</span></p>
-                    <p class="text">Aiqry - アイクリー -は仮想通貨投資に関連する情報をまとめてくれて、<br>疑問を解決してくれる。<span style="color:#4ADFD8;">AIのチャットボットです。</span></p>
-                    </div>
-                    <div class="image_area">
-                    <div class="columns">
-                        <div class="column is-one-quarter image">
-                            <img src="assets/img/middle_icon01.png" />
-                            <p>自分の知りたい情報も</p>
-                        </div>
-                        <div class="column is-one-quarter image">
-                            <img src="assets/img/middle_icon02.png" />
-                            <p>市場の分析も、</p>
-                        </div>
-                        <div class="column is-one-quarter image">
-                            <img src="assets/img/middle_icon03.png" />
-                            <p>取引も、</p>
-                        </div>
-                        <div class="column is-one-quarter image">
-                            <img src="assets/img/middle_icon04.png" />
-                            <p>Aiqryで完結！</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="dl_bottom">
-                    <div class="columns">
-                        <div class="column">
-                            <a href="#"><img src="assets/img/download_google.png" /></a>
-                        </div>
-                        <div class="column">
-                            <a href="#"><img src="assets/img/download_apple.png" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="comunity">
-                      <p class="s1">コミュニティに参加<p>
-                      <a href="#"><img src="assets/img/community_discord.png" /></a>
-                    </div>
-                    <div class="explain">
-                        <div class="explain_01">
-                            <div class="columns box01">
-                                <div class="column pc_hidden">
-                                    <img src="assets/img/number_01.png" />
-                                    <h1 style="color:#77AFF8;">あなたの疑問は、<br>こんなふうに、<br>話しかけてください。</h1>
-                                </div>
-                                <div class="column is-one-fifth left">
-                                    <video autoplay loop muted webkit-playsinline playsinline>
-                                        <source src="assets/video/01_top.mp4" />
-                                    </video>
-                                </div>
-                                <div class="column pc_hidden">
-                                    <p>ふとした疑問や気になることってありませんか？</p>
-                                    <p>AIによるチャットボットが、その質問に答えてくれます。</p>
-                                    <p>今日一日の相場状況や、市場の盛り上がり度、SNSで気になる話題など、気になる事は多々ありますよね。</p>
-                                    <p>Aiqryに気軽に聞く事で、通貨の情報からSNS分析まで疑問を解決してくれます。</p>
-                                    <p>また、Aiqryに聞けば聞くほど、どんどんAIが賢くなっていきます。</p>
-                                </div>
-                                <div class="column right sp_hidden">
-                                    <img src="assets/img/title_01.png" />
-                                    <p>ふとした疑問や気になることってありませんか？</p>
-                                    <p>AIによるチャットボットが、その質問に答えてくれます。</p>
-                                    <p>今日一日の相場状況や、市場の盛り上がり度、SNSで気になる話題など、気になる事は多々ありますよね。</p>
-                                    <p>Aiqryに気軽に聞く事で、通貨の情報からSNS分析まで疑問を解決してくれます。</p>
-                                    <p>また、Aiqryに聞けば聞くほど、どんどんAIが賢くなっていきます。</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="explain_02">
-                            <div class="columns box02">
-                                <div class="column pc_hidden">
-                                    <img src="assets/img/number_02.png" />
-                                    <h1 style="color:#43C4E9;">あなたのお好みの情報は、<br>私にお任せください。</h1>
-                                    <p class="small">※順次リリース予定</p>
-                                </div>
-                                <div class="column left sp_hidden">
-                                    <img src="assets/img/title_02.png" />
-                                    <p>AIがあなたの嗜好に合わせて、厳選した速報、ニュース、イベント情報を配信してくれます。</p>
-                                    <p>仮想通貨業界でどんなコメントがあるのかもわかりやすく、みやすくAIが整理します。</p>
-                                    <p>Aiquryがあれば、情報の迷子にならず、知りたい情報にたどり着けます。</p>
-                                    <p class="small">※順次リリース予定</p>
-                                </div>
-                                <div class="column right">
-                                    <video autoplay loop muted webkit-playsinline playsinline>
-                                        <source src="assets/video/02_news.mp4" />
-                                    </video>
-                                </div>
-                                <div class="column pc_hidden">
-                                    <p>AIがあなたの嗜好に合わせて、厳選した速報、ニュース、イベント情報を配信してくれます。</p>
-                                    <p>仮想通貨業界でどんなコメントがあるのかもわかりやすく、みやすくAIが整理します。</p>
-                                    <p>Aiquryがあれば、情報の迷子にならず、知りたい情報にたどり着けます。</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="explain_03">
-                            <div class="columns box03">
-                                <div class="column pc_hidden">
-                                    <img src="assets/img/number_03.png" />
-                                    <h1 style="color:#4ADFD8;">スマホで完結する、<br>シンプルな仮想通貨取引。</h1>
-                                    <p class="small">※順次リリース予定</p>
-                                </div>
-                                <div class="column is-one-fifth left">
-                                    <video autoplay loop muted webkit-playsinline playsinline>
-                                        <source src="assets/video/03_analyse.mp4" />
-                                    </video>
-                                </div>
-                                <div class="column pc_hidden">
-                                    <p>ニュースや市場の分析を色々なサイトで覗いて、売買も違うサイトで・・</p>
-                                    <p>いろんな画面を移動するだけでも疲れてしまいますよね。</p>
-                                    <p>市場の分析やポートフォリオの管理から実際の取引まで、Aiqryで全てが一つで完結します</p>
-                                    <p>一つのアプリで迷う事なく、仮想通貨の取引に必要な行動をスマホでさくさくできます。</p>
-                                    <p>Everything in One bot.</p>
-                                </div>
-                                <div class="column right sp_hidden">
-                                    <img src="assets/img/title_03.png" />
-                                    <p>ニュースや市場の分析を色々なサイトで覗いて、売買も違うサイトで・・</p>
-                                    <p>いろんな画面を移動するだけでも疲れてしまいますよね。</p>
-                                    <p>市場の分析やポートフォリオの管理から実際の取引まで、Aiqryで全てが一つで完結します</p>
-                                    <p>一つのアプリで迷う事なく、仮想通貨の取引に必要な行動をスマホでさくさくできます。</p>
-                                    <p>Everything in One bot.</p>
-                                    <p class="small">※順次リリース予定</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </main><!-- main -->
-    <footer>
-        <div class="columns footer_inner">
-            <div class="column">
-                <div class="footer_dl">
-                    <p class="s1">ダウンロード<p>
-                    <div class="columns">
-                        <div class="column">
-                            <a href="#"><img src="assets/img/download_google.png" /></a>
-                        </div>
-                        <div class="column">
-                            <a href="#"><img src="assets/img/download_apple.png" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="footer_comunity">
-                    <p class="s1">コミュニティに参加<p>
-                    <a href="#"><img src="assets/img/community_discord.png" /></a>
-                </div>
-            </div>
+    <img src="assets/img/section1.png" />
+    <img src="assets/img/section2.png" />
+    <img src="assets/img/section3.png" />
+    <img src="assets/img/section4.png" />
+    <div class='sns'>
+        <p>あなたはAIロボットを選ぶだけ!利用料0円</p>
+        <a data-target="modal-01" class="modal-syncer button-link letter_s button is-danger is-rounded">今すぐ事前登録</a>
+        <div class='twitter'>
+            <a href='#' class="small button is-rounded"><img src='assets/img/twitter.png' />Twitter</a>
+            <a href='#' class="small button is-rounded"><img src='assets/img/twitter.png' />Tweetする</a>
         </div>
-    </footer>
+    </div>
+    <img src="assets/img/section5.png" />
+
+    <div id="modal-01" style="display: none">
+        <p>事前会員登録</p>
+        <form action="" method="post">
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-danger" type="email" placeholder="メールアドレス" value="" required>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button type="submit" class="button is-link">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
  </body>
  </html>
