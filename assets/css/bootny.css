@@ -304,7 +304,8 @@ footer {
     color: #777;
 }
 
-#modal-01{
+#modal-01,
+#modal-02 {
 	width:50%;
 	margin:1.5em auto 0;
 	padding:10px 20px;
