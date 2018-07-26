@@ -590,7 +590,10 @@ footer {
     }
     	.contents-header {
 		height: 40px;
-	}
+    }
+    #modal-01, #modal-02 {
+        width: 90%;
+    }
 	.contents-header .header-logo {
 		height: 25px;
 		margin-top: 10px;
