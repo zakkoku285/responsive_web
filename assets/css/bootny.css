@@ -63,7 +63,8 @@ a {
     color: #fff;
 }
 .letter_s {
-    letter-spacing: 3px;
+    letter-spacing: 7px;
+    font-weight: 800;
 }
 
 .header_logo {
@@ -89,20 +90,17 @@ a {
     min-width: 300px;
     max-width: 500px;
 }
-header {
-    background-color: #8E8E8E;
-}
 header li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 35px;
+    margin-top: 7px;
 }
 .nav {
-    background-color: #8E8E8E;
-    height: 75px;
+    height: 100px;
 }
 .menu {
     float: right;
-    margin: 20px;
+    margin: 30px;
     color: #fff !important;
     font-weight: 800;
 }
@@ -114,12 +112,19 @@ header li{
     box-sizing: border-box;
     background-size: cover;
     width: 100%;
-    height: 275px;
-    background-color: #8E8E8E;
+    height: 510px;
     text-align: center;
+    background-image: url("../img/main.png")
+    
 }
-.mainvisual img {
-    /* margin: 10px; */
+.main_logo {
+
+}
+.mainvisual h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 15px;
 }
 .mainvisual p {
     color: #fff;
@@ -282,39 +287,27 @@ footer {
     background-color: #187CD6;
     height: 220px;
 }
-.footer_inner {
-    width: 60%;
-    margin: 0 auto;
-}
-.footer_dl{
-    width: 30%;
-    min-width: 300px;
+.footer_wrap {
+    width: 259px;
+    padding-top: 30px;
     margin: 0 auto;
     text-align: center;
 }
-.footer_comunity{
-    width: 30%;
-    min-width: 300px;
-    margin: 0 auto;
-    text-align: center;
+.footer_wrap ul {
+    height: 50px;
 }
-.footer_dl p,
-.footer_comunity p{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.footer_wrap li {
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 8px;
 }
-.footer_comunity img{
-    text-align: center;
-    width: 80px;
+.footer_wrap li a {
+    color: #fff;
+    margin: 5px;
 }
-.page-back {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    height: 83px;
-    width: 85px;
-    border-radius: 50%;
+.footer_wrap p {
+    font-size: 6px;
+    color: #fff;
 }
 .small {
     font-size: 13px;
@@ -355,27 +348,98 @@ footer {
 	cursor:pointer;
 	color:#f00;
 }
-.footer_wrap {
-    width: 259px;
-    padding-top: 30px;
-    margin: 0 auto;
-    text-align: center;
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url(assets/fonts/HelveticaNeue.dfont);
 }
-.footer_wrap ul {
-    height: 50px;
+@font-face {
+	font-family: 'Helvetica';
+	src: url(assets/fonts/Helvetica.dfont);
 }
-.footer_wrap li {
-    padding-left: 10px;
-    font-size: 8px;
+
+.footercontents-header {
+	background-color: #187CD6;
+	height: 50px;
+	width: 100%;
 }
-.footer_wrap li a {
-    float: left;
-    color: #fff;
+.footercontents-header .header-logo {
+	height: 30px;
+	margin: 15px 5px 5px 100px;
+	float: left;
 }
-.footer_wrap p {
-    font-size: 6px;
-    color: #fff;
+.footercontents-header p {
+	float: left;
+	margin: 15px 0;
+	font-family: 'Hiragino Kaku Gothic ProN',Helvetica,HelveticaNeue;
+	font-weight: bold;
+	font-size: 4px;
+	line-height: 10px;
+	color: #FFF;
 }
+
+.footercontents {
+	width: 65%;
+	min-height: 450px;
+	margin: 50px auto;
+	font-family: 'Hiragino Kaku Gothic ProN',Helvetica,HelveticaNeue;
+	font-size: 11px;
+}
+.footercontents h1 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footercontents .contents {
+	margin: 20px 0;
+}
+.footercontents .contents h2 {
+	font-size: 15px;
+	line-height: 19px;
+	padding: 2px 0 0 10px;
+	margin: 10px 0 5px 0;
+	border-bottom: 1px solid #000;
+}
+.footercontents .contents h3 {
+	font-size: 11px;
+	line-height: 15px;
+	padding: 25px 5px 15px 5px;
+	margin-bottom: 5px;
+}
+.footercontents .contents p:not(:last-child), p {
+	line-height: 15px;
+	padding: 0 0 0 5px;
+	margin-bottom: 0.5em;
+}
+.footercontents dl {
+	width: 100%;
+}
+.footercontents dl dt{
+	margin: 20px 0 5px 5px;
+}
+.footercontents dl dd{
+	padding: 0 5px 10px 5px;
+}
+.footercontents .contents-footer {
+	text-align: center;
+	margin: 35px;
+}
+.footercontents .contents-footer .small {
+	background-color: #187CD6;
+	color: #FFF;	
+}
+.footercontents .contents-footer .twitter {
+	padding: 20px 0 0 0;
+}
+.footercontents .contents-footer .twitter img {
+	margin: 0;
+}
+.footercontents .contents-footer .twitter .small {
+	background-color: #000;
+	color: #FFF;
+}
+
 @media (min-width: 768px) {
     .pc_hidden{
         display: none;
