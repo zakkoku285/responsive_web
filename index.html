@@ -30,7 +30,7 @@
                 <img class='sp_hidden' src="assets/img/logo_main.png" alt="メニュー" width="200" height="" border="0" />
                 <img class='pc_hidden' src="assets/img/logo_main.png" alt="メニュー" width="200" height="" border="0" />
             </div>
-            <ul class="menu nav-right">
+            <ul class="menu nav-right sp_hidden">
                 <li><a href="#">bootnyとは</a></li>
                 <!-- <li><a href="#">bootnyムービー</a></li> -->
                 <li><a href="#">使い方</a></li>
@@ -46,10 +46,18 @@
             <a data-target="modal-01" class="modal-syncer letter_s button register is-rounded">今すぐ事前登録</a>
         </div>
     </div>
-    <img src="assets/img/section1.png" />
-    <img src="assets/img/section2.png" />
-    <img src="assets/img/section3.png" />
-    <img src="assets/img/section4.png" />
+    <div class="introduce">
+
+    </div>
+    <div class="use">
+        
+    </div>
+    <div class="faq">
+    
+    </div>
+    <div class="roadmap">
+    
+    </div>
     <div class='sns'>
         <p>あなたはAIロボットを選ぶだけ!利用料0円</p>
         <a data-target="modal-01" class="modal-syncer button-link letter_s button register is-rounded">今すぐ事前登録</a>
@@ -72,47 +80,89 @@
             <p>© 2018 OnplanetZ, inc All Rights Reserved.</p>
         </div>
     </footer>
+
     <div id="modal-01" style="display: none">
-        <p>事前会員登録</p>
+        <div class="modal_header">
+            <p>事前会員登録</p>
+        </div>
+        <p>メールアドレスを入力してください</p>
         <form action="" method="post">
             <div class="field">
                 <div class="control has-icons-left has-icons-right">
-                    <input class="input is-danger" type="email" placeholder="メールアドレス" value="" required>
+                    <input class="input" type="email" placeholder="メールアドレス" value="" required>
                 </div>
             </div>
             <div class="field is-grouped">
                 <div class="control">
-                    <button type="submit" class="button is-link">Submit</button>
+                    <button type="submit" class="button is-link is-rounded">送信</button>
+                </div>
+            </div>
+            <p class="font_small">※利用開始をもって利用規約と個人情報の取り扱いに同意いただいたものとみなします。</p>
+        </form>
+    </div>
+
+    <div id="modal-01-error" style="display: none">
+        <div class="modal_header">
+            <p>事前会員登録</p>
+        </div>
+        <p>メールアドレスを入力してください</p>
+        <p style="color: red">認証できません。メールアドレスをご確認ください</p>
+        <form action="" method="post">
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="メールアドレス" value="" required>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button type="submit" class="button is-link is-rounded">送信</button>
+                </div>
+            </div>
+            <p class="font_small">※利用開始をもって利用規約と個人情報の取り扱いに同意いただいたものとみなします。</p>
+        </form>
+    </div>
+    
+    <div id="modal-02" style="display: none">
+        <div class="modal_header">
+            <p>お問い合わせ</p>
+        </div>
+        <p>サービスに関する質問、取材、協業等はこちらまで</p>
+        <form action="" method="post">
+            <div class="field">
+                <div class="control">
+                    <input class="input" type="text" placeholder="お名前" value="" required>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input" type="email" placeholder="メールアドレス" value="" required>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="textarea" type="text" placeholder="お問い合わせ内容" value="" required>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button type="submit" class="button is-link is-rounded">送信</button>
                 </div>
             </div>
         </form>
     </div>
-        <div id="modal-02" style="display: none">
+
+    <div id="modal-02-compleate" style="display: none">
+        <div class="modal_header">
             <p>お問い合わせ</p>
-            <p>サービスに関する質問、取材、協業等はこちらまで</p>
-            <form action="" method="post">
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="text" placeholder="お名前" value="" required>
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="メールアドレス" value="" required>
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="お問い合わせ内容" value="" required>
-                    </div>
-                </div>
-                <div class="field is-grouped">
-                    <div class="control">
-                        <button type="submit" class="button is-link">Submit</button>
-                    </div>
-                </div>
-            </form>
         </div>
+        <p>お問い合わせ内容が送信されました。 <br>ありがとうございました。</p>
+        <p>担当より連絡いたしますので、 <br>しばらくお待ちください。</p>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button type="submit" class="button is-link is-rounded">送信</button>
+                </div>
+            </div>
+    </div>
 
  </body>
  </html>
