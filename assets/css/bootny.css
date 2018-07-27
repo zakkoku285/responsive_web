@@ -48,7 +48,7 @@ border-spacing: 0;
 
 html{
     background-color: #fff;
-    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN","ãƒ¡ã‚¤ãƒªã‚ª", sans-serif;
 }
 
 body{
@@ -442,13 +442,12 @@ footer {
 .step .step-count {
 	display: block;
 	float: left;
-	width: 20%;
-	margin-right: 5%;
+	width: 15%;
 }
 .step .step-detail {
 	float: left;
 	width: 75%;
-	margin-left: 5%;
+	margin: 0 2%;
 }
 .step-detail h4 {
 	font-size: 18px;
@@ -459,10 +458,11 @@ footer {
 .step-detail p {
 	font-size: 13px;
 	line-height: 18px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	padding: 0;
 }
 .step-detail .image1 {
-	width: 32.5%;
+	width: 32%;
 }
 .step-detail .image2{
 	width: 70%;
@@ -712,6 +712,32 @@ footer {
 	    padding: 10%;
 	    margin-right: 0;
     }
+	.step {
+		width: 80%;
+		text-align: center;
+	}
+	.step .step-count {
+		float: none;
+		width:35%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.step .step-detail {
+		float: none;
+		width: 100%;
+		padding: 20px 0 10px 0;
+		margin: 0;
+	}
+	.step-detail h4 {
+		font-size: 15px;
+	}
+	.step-detail p {
+		font-size: 11px;
+	}
+	.step-detail .image2 {
+		width: 90%;
+		margin: 0;
+	}
     .contents-header .header-logo {
 	    height: 25px;
 	    margin-top: 10px;
