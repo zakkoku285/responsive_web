@@ -48,7 +48,7 @@ border-spacing: 0;
 
 html{
     background-color: #fff;
-    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN","ãƒ¡ã‚¤ãƒªã‚ª", sans-serif;
 }
 
 body{
@@ -117,8 +117,7 @@ header li{
     width: 100%;
     height: 510px;
     text-align: center;
-    background-image: url("../img/main.png")
-    
+    background-image: url("../img/main.png");    
 }
 .main_logo {
     padding-left: 50%;
@@ -352,7 +351,6 @@ footer {
 	height:120%;
 	background-color:rgba(0,0,0,0.75);
 }
-
 .modal-p{
 	margin-top:1em;
 }
@@ -363,11 +361,123 @@ footer {
 .modal-p:first-child{
 	margin-top:0;
 }
- 
 .button-link:hover{
 	cursor:pointer;
 	color:#f00;
 }
+.introduce {
+	background-color: #0061A4;
+	width: 100%;
+	min-height: 500px;
+	padding: 80px 0 30px 0;
+	text-align: center;
+	color: #fff;
+}
+.introduce-text {
+	font-weight:bold;
+	margin: 10px;
+	font-size: 18px;
+	line-height:22px;
+}
+.introduce-list {
+	width: 80%;
+	margin: 50px auto;
+}
+.introduce-contents {
+	display: inline-grid;
+	width:20%;
+	margin-right:4.5%;
+	margin-bottom: 20px;
+}
+.introduce-contents h4 {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 10px 0 5px 0;
+}
+.introduce-contents p {
+	font-size:9px;
+}
+.introduce-contents .title {
+	display: block;
+	height:50px;
+	margin: 10px auto;
+}
+.introduce-contents .illust {
+	display: block;
+	height:80px;
+	margin: 10px auto;
+}
+.contents-title {
+	background-color: #494949;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px; 
+	line-height: 20px;
+}
+.use,.faq,.roadmap {
+	background-color: #F2F2F2;
+	width: 100%;
+	min-height: 500px;
+	color: #3E3A39;
+}
+.faq,.roadmap {
+	background-color: #fff;
+}
+.step {
+	width: 60%;
+	min-height: 150px;
+	margin: 0 auto;
+	padding: 25px 0 25px 0;
+	overflow: hidden;
+}
+.step:last-child {
+	padding-bottom: 50px;
+}
+.step:nth-child(2) {
+	padding-top: 50px;
+}
+.step .step-count {
+	display: block;
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+.step .step-detail {
+	float: left;
+	width: 75%;
+	margin-left: 5%;
+}
+.step-detail h4 {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.step-detail p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.step-detail .image1 {
+	width: 32.5%;
+}
+.step-detail .image2{
+	width: 70%;
+	margin: 0 15%;
+}
+.step-detail .image3 {
+	width: 100%;
+}
+.clear {
+	float:clear;
+}
+
+
+
+
 
 @font-face {
 	font-family: 'HelveticaNeue';
@@ -594,40 +704,48 @@ footer {
     #modal-01, #modal-02 {
         width: 90%;
     }
-	.contents-header .header-logo {
-		height: 25px;
-		margin-top: 10px;
-		margin-left: 15px;
-	}
-	.contents-header p {
-		margin: 10px 0;
-	}
-	.footercontents, .completed {
-		width: 85%;
-		margin: 30px auto;
-	}
-	.footercontents h1,
-	.completed h1 {
-		font-size: 18px;
-	}
-	.footercontents .contents-footer,
-	.completed .contents-footer {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.contents-footer .twitter {
-		padding-top: 10px;
-	}
-	.contents-footer .small {
-		font-size: 11px;
-	}
-	.contents .main-message {
-		font-size: 13px;
-		line-height: 17px;
-	}
-	.contents .coution-message {
-		font-size: 11px;
-		line-height: 15px;
-		padding: 0 10px;
-	}
+    .introduce-list {
+	    width: 80%;
+    }
+    .introduce-contents {
+	    width: 90%;
+	    padding: 10%;
+	    margin-right: 0;
+    }
+    .contents-header .header-logo {
+	    height: 25px;
+	    margin-top: 10px;
+	    margin-left: 15px;
+    }
+    .contents-header p {
+	    margin: 10px 0;
+    }
+    .footercontents, .completed {
+	    width: 85%;
+	    margin: 30px auto;
+    }
+    .footercontents h1,
+    .completed h1 {
+	    font-size: 18px;
+    }
+    .footercontents .contents-footer,
+    .completed .contents-footer {
+	    margin-left: 0;
+	    margin-right: 0;
+    }
+    .contents-footer .twitter {
+	    padding-top: 10px;
+    }
+    .contents-footer .small {
+	    font-size: 11px;
+    }
+    .contents .main-message {
+	    font-size: 13px;
+	    line-height: 17px;
+    }
+    .contents .coution-message {
+	    font-size: 11px;
+	    line-height: 15px;
+	    padding: 0 10px;
+    }
 }
